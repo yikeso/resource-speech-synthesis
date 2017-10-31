@@ -1,0 +1,1221 @@
+10:56:58.358 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 12040 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:56:58.358 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:56:58.358 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:57:02.278 [main] DEBUG c.c.c.s.s.c.ArticleQuartzConfiger - 生成 articleTtsDetail 
+10:57:02.294 [main] DEBUG c.c.c.s.s.c.ArticleQuartzConfiger - 注入org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean@2de7fe0e 
+10:57:02.294 [main] DEBUG c.c.c.s.s.c.ArticleQuartzConfiger - 生成 articleTtsTriggerFactory 
+10:57:02.320 [main] DEBUG c.c.c.s.s.config.BookQuartzConfiger - 生成 bookTtsDetail 
+10:57:02.322 [main] DEBUG c.c.c.s.s.config.BookQuartzConfiger - 注入org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean@18be3205 
+10:57:02.322 [main] DEBUG c.c.c.s.s.config.BookQuartzConfiger - 生成 bookTtsTriggerFactory 
+10:57:02.327 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+10:57:02.327 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+10:57:03.405 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.375 seconds (JVM running for 5.963) 
+10:57:07.500 [scheduler_Worker-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:10.624 [scheduler_Worker-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:13.795 [scheduler_Worker-3] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:16.917 [scheduler_Worker-4] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:20.067 [scheduler_Worker-5] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:23.240 [scheduler_Worker-6] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:26.387 [scheduler_Worker-7] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:57:29.543 [scheduler_Worker-8] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:59:36.721 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 1976 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:59:36.725 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:59:36.726 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:59:40.700 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+10:59:40.700 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+10:59:41.788 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.405 seconds (JVM running for 5.914) 
+10:59:45.848 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:59:48.975 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:59:52.101 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:59:55.228 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+10:59:58.439 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:01.603 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:04.768 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:07.959 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:11.123 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:14.278 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:17.419 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:20.631 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:23.788 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:26.929 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:30.069 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:33.229 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:36.394 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:39.526 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:42.614 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:45.749 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:48.899 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:52.047 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:55.211 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:00:58.328 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:01.507 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:04.663 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:07.830 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:10.977 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:14.071 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:17.235 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:20.376 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:23.539 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:26.695 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:29.819 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:32.967 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:36.117 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:39.311 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:42.444 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:45.608 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:48.763 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:51.915 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:55.117 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:01:58.273 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:01.398 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:04.570 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:07.697 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:10.804 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:13.967 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:17.115 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:20.296 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:23.430 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:26.589 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:29.757 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:32.875 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:36.023 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:39.164 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:42.337 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:45.466 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:48.646 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:51.790 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:54.946 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:02:58.117 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:01.211 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:07.149 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 7784 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+11:03:07.149 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+11:03:07.149 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+11:03:11.269 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+11:03:11.269 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+11:03:12.304 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.483 seconds (JVM running for 6.018) 
+11:03:16.365 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:19.536 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:22.685 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:25.837 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:28.959 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:32.144 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:35.251 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:38.450 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:41.599 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:44.748 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:47.899 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:51.082 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:54.226 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:03:57.368 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:00.500 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:03.664 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:06.789 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:09.903 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:13.065 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:16.221 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:19.391 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:22.564 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:25.680 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:28.820 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:31.962 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:35.086 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:38.222 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:41.414 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:44.521 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:47.635 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:50.731 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:53.900 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:04:57.018 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:00.180 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:03.321 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:06.541 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:09.650 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:12.758 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:15.923 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:19.048 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:22.157 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:25.306 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:28.484 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:31.697 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:34.845 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:37.963 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:41.080 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:44.214 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:47.417 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:50.518 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:53.665 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:56.774 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:05:59.915 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:03.042 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:06.220 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:09.384 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:12.525 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:15.713 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:18.846 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:22.043 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:25.228 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:28.357 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:31.494 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:34.628 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:37.761 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:40.868 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:44.063 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:47.181 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:50.362 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:53.499 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:56.708 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:06:59.838 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:02.956 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:06.119 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:09.235 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:12.400 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:15.557 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:18.671 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:21.838 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:24.995 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:28.172 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:31.307 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:34.476 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:07:37.620 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:20.223 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 7864 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+11:08:20.223 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+11:08:20.223 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+11:08:24.291 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+11:08:24.291 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+11:08:25.385 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.474 seconds (JVM running for 5.987) 
+11:08:29.488 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:29.488 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:32.604 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:32.635 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:35.760 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:35.792 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:38.949 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:38.949 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:42.088 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:42.088 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:45.212 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:45.244 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:48.343 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:48.374 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:51.486 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:51.486 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:54.612 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:08:54.612 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:57.716 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:08:57.753 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:00.885 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:00.885 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:04.017 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:04.017 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:07.136 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:07.136 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:10.269 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:10.269 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:13.408 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:13.424 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:16.564 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:16.564 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:19.705 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:19.721 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:22.864 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:22.864 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:26.008 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:26.008 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:29.184 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:29.184 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:32.322 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:35.448 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:35.979 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:38.604 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:39.182 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:42.293 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:45.483 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:45.483 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:48.602 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:48.648 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:51.759 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:51.775 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:54.896 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:54.896 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:09:58.026 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:09:58.026 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:01.130 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:01.146 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:04.245 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:04.260 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:07.398 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:07.398 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:10.509 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:10.509 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:13.651 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:13.667 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:16.776 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:16.776 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:19.917 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:19.933 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:23.026 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:23.057 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:26.183 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:26.183 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:29.330 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:29.346 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:32.450 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:32.481 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:35.605 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:35.636 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:38.770 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:38.770 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:41.919 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:41.950 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:45.074 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:45.074 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:48.214 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:48.246 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:51.371 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:51.371 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:54.476 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:10:54.507 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:57.636 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:10:57.636 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:00.785 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:00.801 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:03.950 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:07.093 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:07.499 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:10.277 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:10.652 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:13.416 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:13.762 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:16.614 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:16.974 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:19.770 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:20.129 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:22.934 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:23.283 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:26.095 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:26.377 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:29.231 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:29.575 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:32.379 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:32.708 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:35.466 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:35.825 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:38.653 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:38.973 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:41.792 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:42.136 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:44.918 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:45.324 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:48.083 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:48.520 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:51.262 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:51.668 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:54.440 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:54.807 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:11:57.606 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:11:58.027 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:00.769 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:01.160 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:03.918 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:04.356 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:07.067 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:07.535 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:10.215 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:10.715 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:13.340 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:13.855 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:16.497 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:17.026 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:19.648 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:20.195 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:22.767 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:23.345 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:25.910 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:26.488 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:29.076 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:29.636 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:32.277 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:32.856 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:35.434 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:36.027 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:38.597 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:39.176 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:41.762 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:42.340 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:44.905 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:45.499 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:48.090 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:48.637 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:51.254 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:51.777 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:54.411 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:54.966 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:12:57.622 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:12:58.114 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:00.778 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:01.247 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:03.965 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:04.418 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:07.179 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:07.616 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:10.341 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:10.747 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:13.544 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:13.888 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:16.637 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:17.027 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:19.754 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:20.176 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:22.841 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:23.341 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:25.958 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:26.472 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:29.105 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:29.574 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:32.269 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:32.675 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:35.372 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:35.778 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:38.520 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:38.903 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:41.669 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:42.107 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:44.826 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:45.295 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:47.991 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:48.444 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:51.154 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:51.561 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:54.263 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:54.716 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:13:57.416 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:13:57.841 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:00.532 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:00.994 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:03.700 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:04.104 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:06.808 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:07.246 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:09.935 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:10.419 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:13.068 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:13.513 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:16.200 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:16.606 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:19.350 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:19.725 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:22.530 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:22.904 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:25.670 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:26.037 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:28.841 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:29.216 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:32.013 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:32.404 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:35.169 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:35.544 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:38.349 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:38.693 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:41.488 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:41.841 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:44.622 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:44.997 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:47.792 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:48.136 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:50.981 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:51.356 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:54.087 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:54.540 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:14:57.247 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:14:57.685 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+11:15:00.413 [pool-2-thread-2] DEBUG c.c.c.s.s.quartz.ArticleTtsAdapter - 正在进行文章语音合成 
+11:15:00.825 [pool-2-thread-1] DEBUG c.c.c.s.s.quartz.BookTtsAdapter - 正在进行电子书语音合成 
+09:27:35.856 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 14332 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:27:35.867 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:27:35.867 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:29:09.239 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 13960 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:29:09.242 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:29:09.243 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:32:31.276 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 9388 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:32:31.279 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:32:31.279 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:36:16.885 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 4036 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:36:16.888 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:36:16.889 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:42:19.097 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 14296 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:42:19.101 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:42:19.101 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:51:31.015 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 6252 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:51:31.019 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:51:31.019 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:52:03.393 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+09:52:03.394 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+09:52:04.659 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 33.971 seconds (JVM running for 34.501) 
+09:52:17.999 [pool-2-thread-2] ERROR c.c.c.s.s.quartz.TtsAdapter - org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy90.findOutNotTtsBooks(Unknown Source)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.findOneCourseware(BookTtsAdapter.java:258)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:59)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:80)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2123)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1911)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1887)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:932)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2615)
+	at org.hibernate.loader.Loader.doList(Loader.java:2598)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2430)
+	at org.hibernate.loader.Loader.list(Loader.java:2425)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2160)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:992)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:148)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1414)
+	at org.hibernate.query.Query.getResultList(Query.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372)
+	at com.sun.proxy.$Proxy97.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 23 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'pec_resourceurl' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:536)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy98.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:71)
+	... 58 more
+ 
+09:57:48.012 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 3676 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:57:48.017 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:57:48.018 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+09:59:33.383 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 12160 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+09:59:33.386 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+09:59:33.386 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:00:57.622 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 12588 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:00:57.625 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:00:57.626 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:01:01.884 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+10:01:03.001 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.716 seconds (JVM running for 6.28) 
+10:01:16.191 [pool-2-thread-1] ERROR c.c.c.s.s.quartz.TtsAdapter - org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy87.findOutNotTtsBooks(Unknown Source)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.findOneCourseware(BookTtsAdapter.java:258)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:59)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:80)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2123)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1911)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1887)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:932)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2615)
+	at org.hibernate.loader.Loader.doList(Loader.java:2598)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2430)
+	at org.hibernate.loader.Loader.list(Loader.java:2425)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2160)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:992)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:148)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1414)
+	at org.hibernate.query.Query.getResultList(Query.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372)
+	at com.sun.proxy.$Proxy97.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 23 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'book.pec_resourceurl' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:536)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy98.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:71)
+	... 58 more
+ 
+10:01:19.303 [pool-2-thread-2] ERROR c.c.c.s.s.quartz.TtsAdapter - org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy87.findOutNotTtsBooks(Unknown Source)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.findOneCourseware(BookTtsAdapter.java:258)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:59)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:80)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2123)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1911)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1887)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:932)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2615)
+	at org.hibernate.loader.Loader.doList(Loader.java:2598)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2430)
+	at org.hibernate.loader.Loader.list(Loader.java:2425)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2160)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:992)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:148)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1414)
+	at org.hibernate.query.Query.getResultList(Query.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372)
+	at com.sun.proxy.$Proxy97.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 23 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'book.pec_resourceurl' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:536)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy98.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:71)
+	... 58 more
+ 
+10:01:22.421 [pool-2-thread-1] ERROR c.c.c.s.s.quartz.TtsAdapter - org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy87.findOutNotTtsBooks(Unknown Source)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.findOneCourseware(BookTtsAdapter.java:258)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:59)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:80)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2123)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1911)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1887)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:932)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2615)
+	at org.hibernate.loader.Loader.doList(Loader.java:2598)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2430)
+	at org.hibernate.loader.Loader.list(Loader.java:2425)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2160)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:992)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:148)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1414)
+	at org.hibernate.query.Query.getResultList(Query.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372)
+	at com.sun.proxy.$Proxy97.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 23 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'book.pec_resourceurl' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:536)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy98.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:71)
+	... 58 more
+ 
+10:01:25.555 [pool-2-thread-2] ERROR c.c.c.s.s.quartz.TtsAdapter - org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy87.findOutNotTtsBooks(Unknown Source)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.findOneCourseware(BookTtsAdapter.java:258)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:59)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:80)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2123)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1911)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1887)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:932)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2615)
+	at org.hibernate.loader.Loader.doList(Loader.java:2598)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2430)
+	at org.hibernate.loader.Loader.list(Loader.java:2425)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2160)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:992)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:148)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1414)
+	at org.hibernate.query.Query.getResultList(Query.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372)
+	at com.sun.proxy.$Proxy97.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 23 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'book.pec_resourceurl' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:536)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy98.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:71)
+	... 58 more
+ 
+10:07:43.704 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 7752 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:07:43.708 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:07:43.708 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:07:47.828 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+10:07:48.875 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.48 seconds (JVM running for 6.026) 
+10:08:02.278 [pool-2-thread-1] ERROR c.c.c.s.s.quartz.TtsAdapter - org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:261)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:244)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:488)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:59)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:147)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy87.findOutNotTtsBooks(Unknown Source)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.findOneCourseware(BookTtsAdapter.java:258)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:59)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:80)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2123)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1911)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1887)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:932)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2615)
+	at org.hibernate.loader.Loader.doList(Loader.java:2598)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2430)
+	at org.hibernate.loader.Loader.list(Loader.java:2425)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:335)
+	at org.hibernate.internal.SessionImpl.listCustomQuery(SessionImpl.java:2160)
+	at org.hibernate.internal.AbstractSharedSessionContract.list(AbstractSharedSessionContract.java:992)
+	at org.hibernate.query.internal.NativeQueryImpl.doList(NativeQueryImpl.java:148)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1414)
+	at org.hibernate.query.Query.getResultList(Query.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:372)
+	at com.sun.proxy.$Proxy97.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:121)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:85)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:116)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:106)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:483)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:461)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	... 23 more
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'book.pec_publshstate' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:536)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.StatementFacade$StatementProxy.invoke(StatementFacade.java:114)
+	at com.sun.proxy.$Proxy98.executeQuery(Unknown Source)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:71)
+	... 58 more
+ 
+10:09:27.771 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 1920 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:09:27.775 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:09:27.775 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:09:31.821 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+10:09:32.907 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.475 seconds (JVM running for 6.004) 
+10:09:46.288 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《学习贯彻十七届五中全会精神--关于社会稳定与民生问题》正在进行语音合成 
+10:09:49.545 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《关于党领导文化工作的基本经验》正在进行语音合成 
+10:09:52.802 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《关于当前经济形势的分析 ——学习中央经济工作会议精神》正在进行语音合成 
+10:09:56.062 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《公文写作》正在进行语音合成 
+10:09:59.335 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《对当前中国房地产问题的观察与思考》正在进行语音合成 
+10:10:02.599 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《当前文化建设的若干重要问题》正在进行语音合成 
+10:10:05.877 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《当前国际形势热点——南海主权争议升温》正在进行语音合成 
+10:10:09.162 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《朝鲜核问题与朝鲜半岛局势分析》正在进行语音合成 
+10:11:32.996 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 11784 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:11:32.999 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:11:33.000 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:11:37.089 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+10:11:38.173 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.516 seconds (JVM running for 6.054) 
+10:13:09.645 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 12984 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+10:13:09.648 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+10:13:09.649 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+10:13:14.076 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+10:13:15.146 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.831 seconds (JVM running for 6.368) 
+10:13:28.641 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《首批居民健康卡试点发放 全国就医一卡通将逐步实现》开始语音合成 
+10:13:28.772 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《湖北宣恩：立足社情优服务 关注民生促和谐》开始语音合成 
+10:13:32.188 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《宁夏：对教育违纪违规收费行为实行“零容忍”》开始语音合成 
+10:13:32.484 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《王卓君：社会阶层变化与党的建设》开始语音合成 
+10:13:36.165 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《青海省委副书记骆惠宁：财政再穷也要民生优先》开始语音合成 
+10:13:36.251 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《贵州省委书记栗战书：实现给群众以实惠的经济增长》开始语音合成 
+10:13:39.767 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《内蒙古科尔沁区：推行“联动共管”机制构建区域化党建新格局》开始语音合成 
+10:13:39.886 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《滦县榛子镇：开展“手牵手”村企共建探索基层党建新模式》开始语音合成 
+10:13:43.555 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《“微反腐”探索进行时》开始语音合成 
+10:13:43.686 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《2015年我国人均基本公共卫生服务经费将超40元》开始语音合成 
+10:13:47.207 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《遵义市7个纪工委取代35个纪检组》开始语音合成 
+10:13:47.347 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《马飚：越是加快改革发展越要加强反腐倡廉建设》开始语音合成 
+10:13:50.802 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《朱小丹：推动政府系统反腐倡廉建设》开始语音合成 
+10:13:50.881 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《刘伟平强调建设一支重操守讲廉洁高素质干部队伍》开始语音合成 
+11:04:21.828 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 6232 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+11:04:21.856 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+11:04:21.856 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+11:04:26.864 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：articleTtsTriggerFactory 
+11:04:28.026 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 6.515 seconds (JVM running for 8.123) 
+11:04:41.435 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《襄垣县委书记：打造S形新城 千亿投资助力民生发展》开始语音合成 
+11:04:41.763 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - ArticleAudio [id=null, audioMessage=null, audioName=襄垣县委书记：打造S形新城 千亿投资助力民生发展, audioPicUrl=, audioState=2, audioTimeLength=null, audioUrl=e:/articleAudio/2017/10/30/1509332681472/1509332681568.mp3, audioXmlState=2, audioXmlUrl=null, audioZjjj=null, author=, articleId=14340, createTime=Mon Oct 30 11:04:41 CST 2017, difficulty=null, languages=null, localhostip=null, path=null, resource=资源中心, useState=false, videoId=null] 
+11:04:41.784 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - 文章《我国覆盖城乡的公共文化服务体系框架基本建立》开始语音合成 
+11:04:41.842 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.ArticleTtsAdapter - ArticleAudio [id=null, audioMessage=null, audioName=我国覆盖城乡的公共文化服务体系框架基本建立, audioPicUrl=, audioState=2, audioTimeLength=null, audioUrl=e:/articleAudio/2017/10/30/1509332681796/1509332681808.mp3, audioXmlState=2, audioXmlUrl=null, audioZjjj=null, author=, articleId=14365, createTime=Mon Oct 30 11:04:41 CST 2017, difficulty=null, languages=null, localhostip=null, path=null, resource=资源中心, useState=false, videoId=null] 
+11:28:12.374 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 7384 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+11:28:12.378 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+11:28:12.378 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+11:28:16.598 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+11:28:17.751 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.802 seconds (JVM running for 6.369) 
+11:28:31.005 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《北京市如何做好“双轮驱动”》正在进行语音合成 
+11:28:31.005 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：北京市如何做好“双轮驱动” 
+11:28:31.145 [pool-2-thread-1] ERROR c.c.c.s.s.quartz.TtsAdapter - java.lang.NullPointerException
+	at com.china.ciic.studyweb.speechsynthesis.utils.HtmlUtil.analyzeBookIndexHtml(HtmlUtil.java:31)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:121)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:77)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ 
+11:29:17.295 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 8332 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+11:29:17.299 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+11:29:17.299 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+11:29:21.573 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+11:29:22.730 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.775 seconds (JVM running for 6.343) 
+11:29:35.969 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《北京市如何做好“双轮驱动”》正在进行语音合成 
+11:29:35.969 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：北京市如何做好“双轮驱动” 
+11:32:30.229 [pool-2-thread-1] ERROR c.c.c.s.s.quartz.TtsAdapter - java.lang.NullPointerException
+	at com.china.ciic.studyweb.speechsynthesis.utils.HtmlUtil.analyzeBookIndexHtml(HtmlUtil.java:31)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:121)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.BookTtsAdapter.tts(BookTtsAdapter.java:77)
+	at com.china.ciic.studyweb.speechsynthesis.quartz.TtsAdapter.ttsRun(TtsAdapter.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:269)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:257)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+ 
+11:55:27.001 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 5024 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+11:55:27.004 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+11:55:27.005 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+11:55:31.327 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+11:55:32.532 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.876 seconds (JVM running for 6.47) 
+11:55:45.683 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《北京市如何做好“双轮驱动”》正在进行语音合成 
+11:55:45.683 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：北京市如何做好“双轮驱动” 
+11:58:00.098 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=北京市如何做好“双轮驱动”, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 11:58:00 CST 2017, audioXmlUrl=null, audioPicUrl=/site/default/imageone.jpg, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=隆学文, resource=资源中心, languages=null, difficulty=null, bookId=3434] 
+11:58:03.239 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《北京市如何做好“双轮驱动”》正在进行语音合成 
+11:58:03.240 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：北京市如何做好“双轮驱动” 
+11:58:03.260 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=北京市如何做好“双轮驱动”, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 11:58:03 CST 2017, audioXmlUrl=null, audioPicUrl=/site/default/imageone.jpg, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=隆学文, resource=资源中心, languages=null, difficulty=null, bookId=3434] 
+11:58:06.391 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《北京市如何做好“双轮驱动”》正在进行语音合成 
+11:58:06.391 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：北京市如何做好“双轮驱动” 
+11:58:06.410 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=北京市如何做好“双轮驱动”, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 11:58:06 CST 2017, audioXmlUrl=null, audioPicUrl=/site/default/imageone.jpg, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=隆学文, resource=资源中心, languages=null, difficulty=null, bookId=3434] 
+11:58:09.519 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《北京市如何做好“双轮驱动”》正在进行语音合成 
+11:58:09.521 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：北京市如何做好“双轮驱动” 
+11:58:09.544 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=北京市如何做好“双轮驱动”, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 11:58:09 CST 2017, audioXmlUrl=null, audioPicUrl=/site/default/imageone.jpg, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=隆学文, resource=资源中心, languages=null, difficulty=null, bookId=3434] 
+12:00:29.763 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 3576 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:00:29.766 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:00:29.767 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:00:34.063 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:00:35.240 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.821 seconds (JVM running for 6.356) 
+12:00:50.985 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+12:00:50.986 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+12:02:47.294 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+12:02:47.294 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+12:02:49.497 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 12:02:49 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+12:02:52.669 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+12:02:52.669 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+12:02:56.469 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+12:02:56.469 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+12:02:56.501 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 12:02:56 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+12:16:35.234 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 8424 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:16:35.234 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:16:35.234 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:16:39.109 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:16:40.140 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.328 seconds (JVM running for 5.749) 
+12:16:53.429 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+12:16:53.429 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+12:16:57.270 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+12:16:57.270 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+12:16:57.379 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 12:16:57 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+12:17:00.484 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+12:17:00.484 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+12:17:00.531 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+12:17:00.531 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+12:17:00.563 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 12:17:00 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+12:17:03.688 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+12:17:03.703 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+12:17:03.734 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+12:17:03.734 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+12:17:03.828 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 12:17:03 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+12:18:05.610 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 12876 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:18:05.626 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:18:05.626 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:18:39.851 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:18:51.516 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 4204 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:18:51.516 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:18:51.516 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:19:48.798 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:20:27.393 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 13172 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:20:27.393 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:20:27.393 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:20:30.881 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:20:31.583 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 4.55 seconds (JVM running for 4.963) 
+12:20:51.799 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 9032 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:20:51.815 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:20:51.815 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:26:26.696 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:26:29.220 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 13500 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:26:29.220 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:26:29.220 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:26:43.969 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:39:38.888 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 6032 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:39:38.888 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:39:38.888 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:40:21.317 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+12:40:24.933 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 13108 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+12:40:24.933 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+12:40:24.949 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+12:50:18.502 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+13:09:08.572 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 6216 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+13:09:08.572 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+13:09:08.572 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+13:09:12.589 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+13:09:13.671 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.52 seconds (JVM running for 5.948) 
+13:09:26.964 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:09:26.964 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:10:10.620 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:10:10.620 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:10:10.714 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:10:10 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+13:10:25.345 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 888 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+13:10:25.345 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+13:10:25.345 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+13:25:29.844 [main] INFO  c.c.c.s.speechsynthesis.Application - Starting Application on DESKTOP-9CTMS7T with PID 12416 (D:\javaDesk\resourcespeechsynthesis\out\production\classes started by kakasun in D:\javaDesk\resourcespeechsynthesis) 
+13:25:29.860 [main] DEBUG c.c.c.s.speechsynthesis.Application - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE 
+13:25:29.860 [main] INFO  c.c.c.s.speechsynthesis.Application - No active profile set, falling back to default profiles: default 
+13:25:30.972 [main] DEBUG c.c.c.s.s.c.MyPropertyPlaceholderConfigurer - Loading properties file from file [D:\javaDesk\resourcespeechsynthesis\.\ttsTaskConfig.properties] 
+13:25:33.833 [main] DEBUG c.c.c.s.s.c.SchedulerFactoryConfiger - 添加定时任务：bookTtsTriggerFactory 
+13:25:34.803 [main] INFO  c.c.c.s.speechsynthesis.Application - Started Application in 5.373 seconds (JVM running for 5.764) 
+13:25:48.038 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:25:48.038 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:25:48.178 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:25:48.178 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:25:48.272 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:25:48 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+13:25:51.410 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:25:51.410 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:25:51.440 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:25:51.441 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:25:51.479 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:25:51 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+13:25:54.624 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:25:54.624 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:25:54.655 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:25:54.655 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:25:54.687 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:25:54 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+13:25:57.812 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:25:57.812 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:25:57.843 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:25:57.843 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:25:57.921 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:25:57 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+13:26:01.033 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:26:01.033 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:26:01.064 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:26:01.064 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:26:01.173 [pool-2-thread-1] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:26:01 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 
+13:26:04.314 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 电子书《sadfzcvxc11》正在进行语音合成 
+13:26:04.314 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 开始转换电子书：sadfzcvxc11 
+13:26:11.955 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 正在转换电子书《sadfzcvxc11》的 延庆县“严管＋激励”保证村干部积极干事、干净干事 章节 
+13:26:11.955 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - 共 1 章，第 1 章===========> 
+13:26:12.017 [pool-2-thread-2] INFO  c.c.c.s.s.quartz.BookTtsAdapter - BookAudio [id=null, audioName=sadfzcvxc11, audioTimeLength=null, audioUrl=null, audioZjjj=null, path=null, audioMessage=null, audioState=2, createTime=Mon Oct 30 13:26:12 CST 2017, audioXmlUrl=null, audioPicUrl=null, audioXmlState=2, videoId=null, localhostip=null, useState=false, author=, resource=资源中心, languages=null, difficulty=null, bookId=38894] 

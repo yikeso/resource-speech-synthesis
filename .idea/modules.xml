@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-speech-synthesis.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-speech-synthesis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-speech-synthesis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-speech-synthesis_main.iml" group="resource-speech-synthesis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-speech-synthesis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-speech-synthesis_test.iml" group="resource-speech-synthesis" />
+    </modules>
+  </component>
+</project>

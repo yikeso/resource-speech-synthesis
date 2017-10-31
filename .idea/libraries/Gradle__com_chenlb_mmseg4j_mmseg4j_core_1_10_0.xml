@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.chenlb.mmseg4j:mmseg4j-core:1.10.0">
+    <CLASSES>
+      <root url="jar://D:/.gradle/caches/modules-2/files-2.1/com.chenlb.mmseg4j/mmseg4j-core/1.10.0/317d4fc9cb64298953998784cd5e52f4f0b6dc2c/mmseg4j-core-1.10.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/.gradle/caches/modules-2/files-2.1/com.chenlb.mmseg4j/mmseg4j-core/1.10.0/5014af4ab1972daca3d4337eca18ef384649ed/mmseg4j-core-1.10.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,71 @@
+group 'com.china.ciic.studyweb'
+version '3.0.0'
+
+buildscript {
+    //指定hibernate版本
+    ext['hibernate.version'] = '5.2.10.Final'
+    ext {
+        springBootVersion = '1.5.7.RELEASE'
+    }
+    repositories {
+        //使用本地maven库
+        mavenLocal()
+        //使用开源中国的maven仓库
+        maven { url "http://repo2.maven.org/maven2/" }
+        //使用maven仓库
+        mavenCentral()
+        //使用开源中国的maven仓库
+        maven { url "http://maven.oschina.net/content/groups/public/" }
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}",
+                //class文件热部署
+                'org.springframework:springloaded:1.2.7.RELEASE')
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+bootRun {
+    //需开启才能使用JSP热部署功能
+    addResources = true
+}
+
+repositories {
+    //使用本地maven库
+    mavenLocal()
+    //使用开源中国的maven仓库
+    maven { url "http://repo2.maven.org/maven2/" }
+    //使用maven仓库
+    mavenCentral()
+    //使用开源中国的maven仓库
+    maven { url "http://maven.oschina.net/content/groups/public/" }
+    jcenter()
+}
+
+dependencies {
+    compile files('libs/jave-1.0.2.jar')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile(
+            'org.springframework.boot:spring-boot-starter-web',
+            'org.apache.commons:commons-lang3:3.5',
+            'mysql:mysql-connector-java:6.0.6',
+            'org.springframework:spring-context-support',
+            'org.quartz-scheduler:quartz:2.3.0',
+            'org.jsoup:jsoup:1.10.2',
+            'com.chenlb.mmseg4j:mmseg4j-core:1.10.0',
+            'org.apache.lucene:lucene-core:5.5.4',
+            'org.apache.lucene:lucene-analyzers-common:5.5.4',
+            'dom4j:dom4j:1.6.1'
+    )
+    runtime(
+            'com.h2database:h2:1.4.193'
+    )
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
